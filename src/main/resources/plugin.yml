@@ -7,7 +7,7 @@ api-version: 1.13
 permissions:
     minimap.fastupdate:
         description: Updates the minimap of the player much faster
-        default: false
+        default: true
 commands:
     waypoint:
         usage: /waypoint help
@@ -17,16 +17,16 @@ commands:
         description: Gives you a minimap item
 permissions:
     minimap.fastupdate:
-        default: false
+        default: true
     minimap.command.waypoint.help:
-        default: false
+        default: true
     minimap.command.waypoint.list:
-        default: false
+        default: true
     minimap.command.waypoint.add:
-        default: false
+        default: true
     minimap.command.waypoint.remove:
-        default: false
+        default: true
     minimap.command.waypoint.hide:
-        default: false
+        default: true
     minimap.command.minimap:
         default: op
